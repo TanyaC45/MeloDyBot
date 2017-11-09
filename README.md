@@ -1,5 +1,5 @@
 # MeloDyBot
-const Discord = require('discord.js'); //เรียก MeloDyBot มาใช้
+const Discord = require('MeloDy'); //เรียก MeloDyBot มาใช้
 const botRem = new Discord.Client(); //ประกาศ client ขึ้นมา
 //event นี้ทำงานเมื่อ login สำเร็จ
 botRem.on('ready', () => {
@@ -11,7 +11,7 @@ botRem.on('message', message => {
     message.reply('เออๆ');
   }
 });
-botRem.login('เอา token มาใส่ตรงนี้');
+botRem.login('Mzc4MTQ4NTA4MDAxMjM5MDQ5.DOXbmQ.qRUfvBNr5MLXPhf7tiNJmr0lenA');
 const Discord = require('MeloDyBot');
 const botRem = new Discord.Client();
 botRem.on('ready', () => {
