@@ -11,6 +11,11 @@ botRem.on('message', message => {
     message.reply('เออๆ');
   }
 });
+botRem.on('message', message => { 
+  if (message.content === 'จะฟังเพลง') {
+    message.channel.sendMessage('เออๆ');
+  }
+});
 botRem.login('Mzc4MTQ4NTA4MDAxMjM5MDQ5.DOXbmQ.qRUfvBNr5MLXPhf7tiNJmr0lenA');
 const Discord = require('MeloDyBot');
 const botRem = new Discord.Client();
